@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href = "main.css">
+    <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Uchiha Coin</title>
+</head>
+<body>
+    
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#"><h1><img id="logo" src="./UchihaLogo.png" alt="Uchiha Logo" height="140"><span>Uchiha Coin</span></h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" class="active" >Home<spam id="test" class="active" ></spam></a></li>
+                        <li><a href="#buy">How To Buy<spam id="test"></spam></a></li>
+                        <li><a href="#project">Our Project<spam id="test"></spam></a></li>
+                        <li><a href="#roadmap">Roadmap<spam id="test"></spam></a></li>
+                        <li><a href="#footer">contact Us<spam id="test"></spam></a></li>
+                        <div class="social">
+                        <li><a href= "https://twitter.com" class="fab fa-twitter" target= "_blank" id="tw"></a></li>
+                        <li><a href= "https://github.com" class="fab fa-github" target= "_blank" id="tw"></a></li>
+                        <li><a href= "https://telegram.com" class="fab fa-telegram" target= "_blank" id="tw"></a></li>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--hero section-->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+            <h1 id="title1" >Explore New Experiences</h1>
+            <h2 id="title2">with your Sharingan</h2>
+            <div class="text">
+                <p>Uchiha Coin a decentralized token inspired by the Uchiha Clan from the Naruto anime built for the anime community by the anime community.</p>
+            </div>
+            <h3>Let's Start!</h3>
+            <a href="https://PancakeSwap.com" target="_blank" type="button" class="cta">Buy now</a>
+            </div>
+        </div>
+    </section>   
+        
+    <!-- end of hero section-->
+
+    <!--how to buy section--> 
+
+    <section id="buy">
+        <div class="buycontainer">
+            <div class="buy-top">
+                <h1 class="buy-title">How To Buy</h1>
+                <h1 class="buy-title2">$UCHIHA</h1>
+                <p class="p1">See how simple it is to make a purchase using MetaMask, here you can quickly and easily learn how to buy and sell $UCHIHA</p> 
+            </div>
+            <div class="buy-bottom">
+                <div class="buy-item">
+                    <img id="logo1" src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" alt="MetaMask Logo" height="140">
+                    <h2>1 - Create MetaMask Wallet</h2>
+                    <P>Create a MetaMask Wallet using a phone or desktop computer. This will allow you to buy, sell and send $UCHIHA tokens and many other ones too.</P>
+                </div>
+                <div class="buy-item">
+                    <img id="logo2" src="https://birdbro.io/_next/image?url=%2Fbnb.png&w=128&q=75" alt="Binance Logo" height="120">
+                    <h2>2 - Send BNB to your wallet</h2>
+                    <P>You can buy Binance Coin (BNB) on centralized exchanges such as Binance. Make sure to use the BSC network when transfering BNB.</P>
+                </div>
+                <div class="buy-item3">
+                    <img id="logo3" src="./UchihaLogo.png" alt="Uchiha Logo" height="350">
+                    <h2>3 - Swap BNB for UCHIHA COIN</h2>
+                    <P>In the "To" field, click on "Select a currency", then in the "Search name or paste address" field paste the $UCHIHA Token address to find the token. The Uchiha Coin address is found below.</P>
+                        <span><p id="p1">0x55F207dE4C9C1E9fA913a9232F1dAD0ecE358467</p></span>
+                        <button id="copy" onclick="copyToClipboard('#p1')">Copy</button>
+                    </div>
+                
+            </div>
+        </div>
+    </section>  
+
+    <!-- End of how to buy section--> 
+
+    <!-- our project section--> 
+    <section id="project">
+        <div class="project container">
+            <div>
+            <h1>Join Us On a Mission</h1> 
+            <h2>To Restore</h2>
+            <h3>The Clan's Glory</h3>
+            <p>Uchiha Coin a Decentralized anime token inspired by the Uchiha Clan from the Naruto anime built for one goal is to restore the Uchiha clan's glory and reputation and to do that we need your help and the help of the Uchiha Members to reach the infinite Tsukiyumi all together.</p>
+            <a href="#roadmap" type="button" class="cta">RoadMap</a>
+            </div>
+        </div>
+    </section>  
+    
+    <!-- end of our project section--> 
+    
+    <!-- roadmap section--> 
+
+    <section id="roadmap">
+        <div class="roadmap container">
+            <div class="roadmap-top">
+                <h1 class="roadmap-title">RoadMap</h1>
+                <p>See our roadmap, all our goals for the $UCHIHA project.</p> 
+            </div>
+            <div class="roadmap-bottom">
+                <div class="roadmap-item">
+                    <h2>Phase 1</h2>
+                    <ul>
+                        <li>Social Media Launch.</li>
+                        <li>Launch Token Website.</li>
+                        <li>Contract Token creation.</li>
+                        <li>Listing On Pancakeswap.</li>
+                        <li>1000 Uchiha Members.</li>
+                    </ul>
+                </div>
+                <div class="roadmap-item">
+                    <h2>Phase 2</h2>
+                    <ul>
+                        <li>Marketing Push.</li>
+                        <li>CoinMarketCap Listing.</li>
+                        <li>CoinGecko Listing.</li>
+                        <li>Airdrop.</li>
+                        <li>Launch Paid Ads.</li>
+                        <li>5000 Uchiha Members.</li>
+                    </ul>
+                </div>
+                <div class="roadmap-item">
+                    <h2>Phase 3</h2>
+                    <ul>
+                        <li>Contract Audit & KYC.</li>
+                        <li>Bitmart listing.</li>
+                        <li>Gate.io listing.</li>
+                        <li>Influencer Marketing.</li>
+                        <li>Website V2.0</li>
+                        <li>WhitePaper V1.0</li>
+                        <li>RoadMap V2.0</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- End of Roadmap  section-->
+
+    <!-- Supply section--> 
+
+    <section id="supply">
+        <div class="supply">
+            <h1 class="supply-title">Total Supply</h1>
+                <span>1,000,000,000,000</span>
+                <p>Uchiha Coin on BSC! A community-focused, decentralized cryptocurrency with instant rewards for the Uchiha Clan members.</p>
+                <span class="contract">Address: 0x1bd5ddcd740f2d13b2255fc325c02509da35c4e4</span>
+                <br>
+                <br>
+                <button class="buybtn" id="copy" onclick="copyToClipboard('#p1')">Copy</button>
+                <br>
+                <br>
+                <a href="https://PancakeSwap.com" target="_blank" type="button" class="buybtn">Buy On PancakeSwap</a>
+        </div>
+    </section>
+
+    <!-- End of Supply section--> 
+
+    <!-- footer section--> 
+
+    <section id="footer">
+        <div class="footer">
+            <h3>Disclaimer</h3>
+            <p id="p1">UCHIHA COIN or $UCHIHA is not a registered digital currency and does not count as an investment. DeFi tokens are not regulated, always make sure you invest what you can afford to lose.</p>
+            <p id="p2">Team Uchiha Coin are not liable for any financial loss you may incur nor are we responsible for any gains you make.</p>
+            <br>
+            <span class="email">Email: Contact@Uchihacoin.com</span>
+            <br>
+            <img src="./UchihaLogo.png" alt="" height="350px">
+            <h1 class="footer-title">Uchiha Coin</h1>
+            <a href= "https://twitter.com" class="fab fa-twitter" target= "_blank" id="tw"></a>
+            <a href= "https://github.com" class="fab fa-github" target= "_blank" id="tw"></a>
+            <a href= "https://telegram.com" class="fab fa-telegram" target= "_blank" id="tw"></a>
+            <h4>© 2022 Uchihacoin.com All rights reserved.</h4>
+        </div>
+    </section>
+
+<!-- end of footer section--> 
+
+    <script src="./main.js"></script>
+</body>
+</html>
